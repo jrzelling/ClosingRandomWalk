@@ -5,6 +5,8 @@ Generates a 3D random walk of a specified length (can be changed), and then usin
 
 The function continually generates a csv file of coordinates and to visualize different paths, manually run the function (Shift-Enter) to read different csv files into the plot output. 
 
+Upon first running the notebook, each cell must be run sequentially from the first cell to the last cell. However Only the last cell needs to be run in order to generate different outputs since the csv files will be automatically regenerating and overwriting the old files. 
+
 ![Output](/Screen Shot 2016-09-11 at 11.43.20 PM.png?raw=true "Output")
 
 Sample Image
