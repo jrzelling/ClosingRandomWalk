@@ -1,0 +1,85 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      2666,         76]
+NotebookOptionsPosition[      2409,         62]
+NotebookOutlinePosition[      2767,         78]
+CellTagsIndexPosition[      2724,         75]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+  "SetDirectory", "[", "\"\</Users/johnryanzelling/Downloads/ORNLExpo\>\"", 
+   "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", "\[IndentingNewLine]", 
+   RowBox[{
+   "\"\<RandomWalk2D.csv\>\"", "\[IndentingNewLine]", ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"{", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"100", "+", 
+         RowBox[{"Re", "[", "#", "]"}]}], "\[IndentingNewLine]", ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"100", "+", 
+         RowBox[{"Im", "[", "#", "]"}]}]}], "\[IndentingNewLine]", "}"}], 
+      "&"}], "/@", "\[IndentingNewLine]", 
+     RowBox[{"Accumulate", "[", "\[IndentingNewLine]", 
+      RowBox[{"RandomComplex", "[", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "1"}], "-", "I"}], ",", 
+          RowBox[{"1", "+", "I"}]}], "}"}], "\[IndentingNewLine]", ",", 
+        "\[IndentingNewLine]", "5", "\[IndentingNewLine]", ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"WorkingPrecision", "\[Rule]", "4"}]}], "\[IndentingNewLine]",
+        "]"}], "\[IndentingNewLine]", "]"}]}]}], "\[IndentingNewLine]", "]"}],
+   ";"}]}], "Input",
+ CellChangeTimes->{{3.606166978341816*^9, 3.606166997931449*^9}, {
+   3.606167143797241*^9, 3.606167170954525*^9}, {3.606167207932129*^9, 
+   3.606167254785103*^9}, {3.6061678678276587`*^9, 3.606167887401408*^9}, {
+   3.606167937778891*^9, 3.6061680765172853`*^9}, {3.606168112206854*^9, 
+   3.606168132147729*^9}, {3.606169242440298*^9, 3.6061692523487253`*^9}, 
+   3.606169360206889*^9, 3.6061693922059097`*^9, 3.6061710081116533`*^9, {
+   3.606177692568602*^9, 3.606177693973136*^9}, 3.606592561594384*^9, {
+   3.606592943180931*^9, 3.606592947878368*^9}, 3.606598368401044*^9}]
+},
+WindowSize->{740, 867},
+WindowMargins->{{Automatic, 142}, {Automatic, 21}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 1848, 40, 335, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
