@@ -1,6 +1,8 @@
 # Closing Random Walk
 
-Generates a 3D random walk of a specified length, and then using 3D transforms, copies the walk four times and it closes on itself. Was used for a demonstration of R which is not part of this repository. 
+Generates a 3D random walk of a specified length (can be changed), and then using 3D transforms, copies the walk four times and it closes on itself. Was used for a demonstration of R which is not part of this repository. 
+
+The function continually generates a csv file of coordinates and to visualize different paths, manually run the function (Shift-Enter) to read different csv files into the plot output. 
 
 ![Output](/Screen Shot 2016-09-11 at 11.43.20 PM.png?raw=true "Output")
 
